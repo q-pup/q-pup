@@ -1,1 +1,1 @@
-# spot-micro
+# Q-PUP: Quadrupedal Practical Utility Platform
