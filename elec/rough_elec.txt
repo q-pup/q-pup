@@ -1,0 +1,24 @@
+
+   (48V 50A)
+bat -8AWG-> connector -8AWG-> 120A breaker -8AWG-> bus bar -8AWG-> bus bar -12AWG-> pwr reg -12AWG-> jetson
+                                                     |||             |||
+                                                     |||             |||-8AWG-> Odrive --18AWG-> Motor (20A cts, 25A peak)
+                                                     |||             ||                \-18AWG-> Motor
+                                                     |||             ||--8AWG-> Odrive --18AWG-> Motor
+                                                     |||             |                 \-18AWG-> Motor
+                                                     |||             |---8AWG-> Odrive --18AWG-> Motor
+                                                     |||                               \-18AWG-> Motor
+                                                     ||| (48V 25A*)
+                                                     |||---8AWG-> Odrive --18AWG-> LHip Motor
+                                                     ||                  \-18AWG-> RHip Motor
+                                                     ||----8AWG-> Odrive --18AWG-> LKnee Motor
+                                                     |                   \-18AWG-> RSplay Motor
+                                                     |-----8AWG-> Odrive --18AWG-> RKnee Motor
+                                                                         \-18AWG-> LSplay Motor
+
+* During normal operation:
+  - 2 knees are active at a time (Bearing most of the robot weight) -> TODO: Current estimate (W/ new belt reduction)
+  - 2 hips are engaged to propel the robot                          -> TODO: Current estimate (Pull from FDP)
+  - 2 hips are engaged to swing lifted leg                          -> TODO: Current estimate (Pull from FDP?)
+  - 4 splays do negligible work
+By arranging motors on odrives as shown, we minimize each odrive's power draw
