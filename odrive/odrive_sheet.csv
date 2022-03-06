@@ -1,0 +1,7 @@
+Odrive Number,Location,Axis0 CAN ID,Axis0 Motor ID,Axis0 Motor Location,Axis1 CAN ID,Axis1 Motor ID,Axis1 Motor Location
+0,Front-Left,1,,,2,,
+1,Front-Centre,3,,,4,,
+2,Front-Right,5,,,6,,
+3,Back-Right,7,,,8,,
+4,Back-Centre,9,,,10,,
+5,Back-Left,11,,,12,,
