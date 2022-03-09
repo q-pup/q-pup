@@ -1,5 +1,5 @@
 Odrive Number,Location,Axis0 CAN ID,Axis0 Motor ID,Axis0 Motor Location,Axis1 CAN ID,Axis1 Motor ID,Axis1 Motor Location
-0,Front-Left,1,,FLK,2,M12,FLH
+0,Front-Left,1,M10,FLK,2,M12,FLH
 1,Front-Centre,3,M8,FRS,4,M11,FLS
 2,Front-Right,5,,FRK,6,M7,FRH
 3,Back-Right,7,M3,RRK,8,M4,RRH
