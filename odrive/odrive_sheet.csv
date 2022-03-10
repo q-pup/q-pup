@@ -4,4 +4,4 @@ Odrive Number,Location,Axis0 CAN ID,Axis0 Motor ID,Axis0 Motor Location,Axis1 CA
 2,Front-Right,5,M9,FRK,6,M7,FRH
 3,Back-Right,7,M3,RRK,8,M4,RRH
 4,Back-Centre,9,M6,RLS,10,M2,RRS
-5,Back-Left,11,,RLK,12,M5,RLH
+5,Back-Left,11,M14,RLK,12,M5,RLH
