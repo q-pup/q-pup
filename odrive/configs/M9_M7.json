@@ -29,7 +29,7 @@
                 "encoder_rate_ms": 10,
                 "heartbeat_rate_ms": 100,
                 "is_extended": false,
-                "node_id": 0
+                "node_id": 5
             },
             "general_lockin": {
                 "accel": 20.0,
@@ -112,9 +112,9 @@
                 "ignore_illegal_hall_state": false,
                 "index_offset": 0.0,
                 "mode": 0,
-                "phase_offset_float": 0.43799224495887756,
-                "phase_offset": -2044,
-                "pre_calibrated": false,
+                "phase_offset_float": -0.0568196177482605,
+                "phase_offset": -2151,
+                "pre_calibrated": true,
                 "sincos_gpio_pin_cos": 4,
                 "sincos_gpio_pin_sin": 3,
                 "use_index_offset": true,
@@ -165,8 +165,8 @@
                 "inverter_temp_limit_lower": 100.0,
                 "inverter_temp_limit_upper": 120.0,
                 "motor_type": 0,
-                "phase_inductance": 0.00019677462114486843,
-                "phase_resistance": 0.15646019577980042,
+                "phase_inductance": 0.0001763084583217278,
+                "phase_resistance": 0.12265268713235855,
                 "pole_pairs": 15,
                 "pre_calibrated": true,
                 "requested_current_range": 25.0,
