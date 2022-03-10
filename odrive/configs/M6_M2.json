@@ -124,8 +124,8 @@
         "max_endstop": {
             "config": {
                 "debounce_ms": 50,
-                "enabled": false,
-                "gpio_num": 0,
+                "enabled": true,
+                "gpio_num": 5,
                 "is_active_high": false,
                 "offset": 0.0
             }
@@ -139,8 +139,8 @@
         "min_endstop": {
             "config": {
                 "debounce_ms": 50,
-                "enabled": false,
-                "gpio_num": 0,
+                "enabled": true,
+                "gpio_num": 6,
                 "is_active_high": false,
                 "offset": 0.0
             }
@@ -334,8 +334,8 @@
         "max_endstop": {
             "config": {
                 "debounce_ms": 50,
-                "enabled": false,
-                "gpio_num": 0,
+                "enabled": true,
+                "gpio_num": 8,
                 "is_active_high": false,
                 "offset": 0.0
             }
@@ -349,8 +349,8 @@
         "min_endstop": {
             "config": {
                 "debounce_ms": 50,
-                "enabled": false,
-                "gpio_num": 0,
+                "enabled": true,
+                "gpio_num": 7,
                 "is_active_high": false,
                 "offset": 0.0
             }
@@ -452,10 +452,10 @@
         "gpio2_mode": 4,
         "gpio3_mode": 3,
         "gpio4_mode": 3,
-        "gpio5_mode": 3,
-        "gpio6_mode": 0,
-        "gpio7_mode": 0,
-        "gpio8_mode": 0,
+        "gpio5_mode": 1,
+        "gpio6_mode": 1,
+        "gpio7_mode": 1,
+        "gpio8_mode": 1,
         "gpio9_mode": 11,
         "max_regen_current": 0.0,
         "uart0_protocol": 3,
