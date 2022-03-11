@@ -66,21 +66,21 @@
                 "enable_torque_mode_vel_limit": true,
                 "enable_vel_limit": true,
                 "gain_scheduling_width": 10.0,
-                "homing_speed": 0.25,
+                "homing_speed": 1.0,
                 "inertia": 0.0,
                 "input_filter_bandwidth": 2.0,
                 "input_mode": 1,
                 "load_encoder_axis": 0,
                 "mechanical_power_bandwidth": 20.0,
                 "mirror_ratio": 1.0,
-                "pos_gain": 36.0,
+                "pos_gain": 6.0,
                 "spinout_electrical_power_threshold": 10.0,
                 "spinout_mechanical_power_threshold": -10.0,
                 "steps_per_circular_range": 1024,
                 "torque_mirror_ratio": 0.0,
                 "torque_ramp_rate": 0.009999999776482582,
-                "vel_gain": 6.0,
-                "vel_integrator_gain": 3.299999952316284,
+                "vel_gain": 1.9500000476837158,
+                "vel_integrator_gain": 1.5,
                 "vel_integrator_limit": Infinity,
                 "vel_limit": 6.5,
                 "vel_limit_tolerance": 1.2000000476837158,
@@ -125,7 +125,7 @@
             "config": {
                 "debounce_ms": 50,
                 "enabled": true,
-                "gpio_num": 5,
+                "gpio_num": 7,
                 "is_active_high": false,
                 "offset": 0.0
             }
@@ -140,9 +140,9 @@
             "config": {
                 "debounce_ms": 50,
                 "enabled": true,
-                "gpio_num": 6,
+                "gpio_num": 8,
                 "is_active_high": false,
-                "offset": 0.0
+                "offset": 3.799999952316284
             }
         },
         "motor": {
@@ -158,7 +158,7 @@
                 "acim_gain_min_flux": 10.0,
                 "bEMF_FF_enable": false,
                 "calibration_current": 10.0,
-                "current_control_bandwidth": 148.0,
+                "current_control_bandwidth": 150.0,
                 "current_lim_margin": 8.0,
                 "current_lim": 20.0,
                 "dc_calib_tau": 0.20000000298023224,
@@ -269,28 +269,28 @@
                 "axis_to_mirror": 255,
                 "circular_setpoint_range": 1.0,
                 "circular_setpoints": false,
-                "control_mode": 1,
+                "control_mode": 3,
                 "electrical_power_bandwidth": 20.0,
                 "enable_gain_scheduling": false,
                 "enable_overspeed_error": true,
                 "enable_torque_mode_vel_limit": true,
                 "enable_vel_limit": true,
                 "gain_scheduling_width": 10.0,
-                "homing_speed": 0.25,
+                "homing_speed": -1.006250023841858,
                 "inertia": 0.0,
                 "input_filter_bandwidth": 2.0,
                 "input_mode": 1,
                 "load_encoder_axis": 1,
                 "mechanical_power_bandwidth": 20.0,
                 "mirror_ratio": 1.0,
-                "pos_gain": 36.0,
+                "pos_gain": 6.0,
                 "spinout_electrical_power_threshold": 10.0,
                 "spinout_mechanical_power_threshold": -10.0,
                 "steps_per_circular_range": 1024,
                 "torque_mirror_ratio": 0.0,
                 "torque_ramp_rate": 0.009999999776482582,
-                "vel_gain": 6.0,
-                "vel_integrator_gain": 3.299999952316284,
+                "vel_gain": 1.9500000476837158,
+                "vel_integrator_gain": 1.5,
                 "vel_integrator_limit": Infinity,
                 "vel_limit": 6.5,
                 "vel_limit_tolerance": 1.2000000476837158,
@@ -335,7 +335,7 @@
             "config": {
                 "debounce_ms": 50,
                 "enabled": true,
-                "gpio_num": 8,
+                "gpio_num": 5,
                 "is_active_high": false,
                 "offset": 0.0
             }
@@ -350,9 +350,9 @@
             "config": {
                 "debounce_ms": 50,
                 "enabled": true,
-                "gpio_num": 7,
+                "gpio_num": 6,
                 "is_active_high": false,
-                "offset": 0.0
+                "offset": -3.799999952316284
             }
         },
         "motor": {
