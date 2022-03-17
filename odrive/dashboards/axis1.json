@@ -1,0 +1,236 @@
+{
+  "component": "Dashboard",
+  "name": "Axis 1",
+  "id": "cfcd4639-3792-4a6f-af62-9f4caca15168",
+  "controls": [
+    {
+      "controlType": "CtrlNumeric",
+      "path": "odrives.odrive0.axis1.motor.config.current_lim"
+    },
+    {
+      "controlType": "CtrlNumeric",
+      "path": "odrives.odrive0.axis1.controller.config.vel_limit"
+    },
+    {
+      "controlType": "CtrlSlider",
+      "path": "odrives.odrive0.axis1.controller.config.pos_gain"
+    },
+    {
+      "controlType": "CtrlSlider",
+      "path": "odrives.odrive0.axis1.controller.config.vel_gain"
+    },
+    {
+      "controlType": "CtrlSlider",
+      "path": "odrives.odrive0.axis1.controller.config.vel_integrator_gain"
+    },
+    {
+      "controlType": "CtrlFunction",
+      "path": "odrives.odrive0.save_configuration"
+    },
+    {
+      "controlType": "CtrlSlider",
+      "path": "odrives.odrive0.axis1.encoder.config.bandwidth"
+    },
+    {
+      "controlType": "CtrlSlider",
+      "path": "odrives.odrive0.axis1.motor.config.current_control_bandwidth"
+    }
+  ],
+  "actions": [
+    {
+      "actionType": "Action",
+      "id": "84821c2d-c286-4839-a345-01a5c4cbb2b3",
+      "path": "odrives.odrive0.axis1.controller.input_pos"
+    },
+    {
+      "actionType": "Action",
+      "id": "906781ca-9b1d-4174-be3a-a8cf2d38c1f9",
+      "path": "odrives.odrive0.axis1.controller.input_pos",
+      "val": 1
+    },
+    {
+      "actionType": "ActionEnum",
+      "id": "da0f7b57-d3f9-424d-a3b3-77b5f1802232",
+      "path": "odrives.odrive0.axis1.requested_state",
+      "options": [
+        {
+          "text": "Undefined",
+          "value": 0
+        },
+        {
+          "text": "Idle",
+          "value": 1
+        },
+        {
+          "text": "Startup Sequence",
+          "value": 2
+        },
+        {
+          "text": "Full Calibration Sequence",
+          "value": 3
+        },
+        {
+          "text": "Motor Calibration",
+          "value": 4
+        },
+        {
+          "text": "Sensorless Control",
+          "value": 5
+        },
+        {
+          "text": "Encoder Index Search",
+          "value": 6
+        },
+        {
+          "text": "Encoder Offset Calibration",
+          "value": 7
+        },
+        {
+          "text": "Closed Loop Control",
+          "value": 8
+        },
+        {
+          "text": "Lockin Spin",
+          "value": 9
+        },
+        {
+          "text": "Encoder Direction Find",
+          "value": 10
+        },
+        {
+          "text": "Homing",
+          "value": 11
+        }
+      ],
+      "val": 8
+    },
+    {
+      "actionType": "ActionEnum",
+      "id": "a03df3bc-06bc-4db5-8460-39668e8226c7",
+      "path": "odrives.odrive0.axis1.requested_state",
+      "options": [
+        {
+          "text": "Undefined",
+          "value": 0
+        },
+        {
+          "text": "Idle",
+          "value": 1
+        },
+        {
+          "text": "Startup Sequence",
+          "value": 2
+        },
+        {
+          "text": "Full Calibration Sequence",
+          "value": 3
+        },
+        {
+          "text": "Motor Calibration",
+          "value": 4
+        },
+        {
+          "text": "Sensorless Control",
+          "value": 5
+        },
+        {
+          "text": "Encoder Index Search",
+          "value": 6
+        },
+        {
+          "text": "Encoder Offset Calibration",
+          "value": 7
+        },
+        {
+          "text": "Closed Loop Control",
+          "value": 8
+        },
+        {
+          "text": "Lockin Spin",
+          "value": 9
+        },
+        {
+          "text": "Encoder Direction Find",
+          "value": 10
+        },
+        {
+          "text": "Homing",
+          "value": 11
+        }
+      ],
+      "val": 1
+    },
+    {
+      "actionType": "ActionEnum",
+      "id": "0258b6eb-3906-4959-a67f-2b414b53ad50",
+      "path": "odrives.odrive0.axis1.controller.config.control_mode",
+      "options": [
+        {
+          "text": "Voltage Control",
+          "value": 0
+        },
+        {
+          "text": "Torque Control",
+          "value": 1
+        },
+        {
+          "text": "Velocity Control",
+          "value": 2
+        },
+        {
+          "text": "Position Control",
+          "value": 3
+        }
+      ],
+      "val": 2
+    },
+    {
+      "actionType": "Action",
+      "id": "aaafdfd9-8305-4548-a4b8-504b1b780668",
+      "path": "odrives.odrive0.axis1.controller.input_torque",
+      "val": -20
+    },
+    {
+      "actionType": "Action",
+      "id": "85fbe0e7-f16c-4640-9d59-61be3f1cccf6",
+      "path": "odrives.odrive0.axis1.controller.input_vel",
+      "val": -4
+    }
+  ],
+  "plots": [
+    {
+      "name": "d630ebf2-324b-404f-9a76-8f6750967714",
+      "vars": [
+        {
+          "path": "odrives.odrive0.axis1.encoder.pos_estimate",
+          "color": "#1f77b4"
+        },
+        {
+          "path": "odrives.odrive0.axis1.controller.input_pos",
+          "color": "#ff7f0e"
+        }
+      ]
+    },
+    {
+      "name": "ce147103-9264-4148-b8a2-bae87ca7241b",
+      "vars": [
+        {
+          "path": "odrives.odrive0.axis1.encoder.vel_estimate",
+          "color": "#1f77b4"
+        },
+        {
+          "path": "odrives.odrive0.axis1.controller.vel_setpoint",
+          "color": "#ff7f0e"
+        },
+        {
+          "path": "odrives.odrive0.axis1.controller.input_vel",
+          "color": "#2ca02c"
+        },
+        {
+          "path": "odrives.odrive0.axis1.motor.current_control.Iq_measured",
+          "color": "#d62728"
+        }
+      ]
+    }
+  ]
+}
