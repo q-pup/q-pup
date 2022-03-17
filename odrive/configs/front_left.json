@@ -142,7 +142,7 @@
                 "enabled": true,
                 "gpio_num": 7,
                 "is_active_high": false,
-                "offset": -16.153846740722656
+                "offset": -5.384615421295166
             }
         },
         "motor": {
@@ -322,8 +322,8 @@
                 "ignore_illegal_hall_state": false,
                 "index_offset": 0.0,
                 "mode": 0,
-                "phase_offset_float": -0.3067258596420288,
-                "phase_offset": -2152,
+                "phase_offset_float": -0.2235904335975647,
+                "phase_offset": -2161,
                 "pre_calibrated": true,
                 "sincos_gpio_pin_cos": 4,
                 "sincos_gpio_pin_sin": 3,
@@ -352,7 +352,7 @@
                 "enabled": true,
                 "gpio_num": 6,
                 "is_active_high": false,
-                "offset": 0.0
+                "offset": 5.0
             }
         },
         "motor": {
@@ -375,8 +375,8 @@
                 "inverter_temp_limit_lower": 100.0,
                 "inverter_temp_limit_upper": 120.0,
                 "motor_type": 0,
-                "phase_inductance": 0.00017753553402144462,
-                "phase_resistance": 0.12328784167766571,
+                "phase_inductance": 0.00017925206338986754,
+                "phase_resistance": 0.12421298027038574,
                 "pole_pairs": 15,
                 "pre_calibrated": true,
                 "requested_current_range": 25.0,

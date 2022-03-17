@@ -107,7 +107,7 @@
           "value": 13
         }
       ],
-      "val": 1
+      "val": 3
     },
     {
       "actionType": "ActionEnum",
@@ -152,7 +152,7 @@
       "actionType": "Action",
       "id": "fe891d16-f26c-48e8-8bd8-65c8ad709666",
       "path": "odrives.odrive0.axis0.controller.input_torque",
-      "val": -2
+      "val": 0
     }
   ],
   "plots": [
@@ -200,6 +200,15 @@
         {
           "path": "odrives.odrive0.axis0.motor.current_meas_phC",
           "color": "#2ca02c"
+        }
+      ]
+    },
+    {
+      "name": "b02600f3-8fe3-4822-8433-480d7a6c9248",
+      "vars": [
+        {
+          "path": "odrives.odrive0.axis0.current_state",
+          "color": "#1f77b4"
         }
       ]
     }

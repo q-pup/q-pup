@@ -66,7 +66,7 @@
                 "enable_torque_mode_vel_limit": true,
                 "enable_vel_limit": true,
                 "gain_scheduling_width": 10.0,
-                "homing_speed": 1.0,
+                "homing_speed": 3.0,
                 "inertia": 0.0,
                 "input_filter_bandwidth": 2.0,
                 "input_mode": 1,
@@ -142,7 +142,7 @@
                 "enabled": true,
                 "gpio_num": 7,
                 "is_active_high": false,
-                "offset": 16.153846740722656
+                "offset": 5.384615421295166
             }
         },
         "motor": {
@@ -276,7 +276,7 @@
                 "enable_torque_mode_vel_limit": true,
                 "enable_vel_limit": true,
                 "gain_scheduling_width": 10.0,
-                "homing_speed": 0.25,
+                "homing_speed": -2.0,
                 "inertia": 0.0,
                 "input_filter_bandwidth": 2.0,
                 "input_mode": 1,
@@ -322,8 +322,8 @@
                 "ignore_illegal_hall_state": false,
                 "index_offset": 0.0,
                 "mode": 0,
-                "phase_offset_float": -0.13732963800430298,
-                "phase_offset": -2088,
+                "phase_offset_float": 0.2125890851020813,
+                "phase_offset": -2042,
                 "pre_calibrated": true,
                 "sincos_gpio_pin_cos": 4,
                 "sincos_gpio_pin_sin": 3,
@@ -352,7 +352,7 @@
                 "enabled": true,
                 "gpio_num": 6,
                 "is_active_high": false,
-                "offset": 0.0
+                "offset": -5.0
             }
         },
         "motor": {
@@ -368,15 +368,15 @@
                 "acim_gain_min_flux": 10.0,
                 "bEMF_FF_enable": false,
                 "calibration_current": 10.0,
-                "current_control_bandwidth": 148.75,
+                "current_control_bandwidth": 148.0,
                 "current_lim_margin": 8.0,
                 "current_lim": 20.0,
                 "dc_calib_tau": 0.20000000298023224,
                 "inverter_temp_limit_lower": 100.0,
                 "inverter_temp_limit_upper": 120.0,
                 "motor_type": 0,
-                "phase_inductance": 0.00017976197705138475,
-                "phase_resistance": 0.1250310242176056,
+                "phase_inductance": 0.000179420254426077,
+                "phase_resistance": 0.12331105768680573,
                 "pole_pairs": 15,
                 "pre_calibrated": true,
                 "requested_current_range": 25.0,

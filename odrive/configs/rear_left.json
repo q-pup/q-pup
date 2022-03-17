@@ -66,7 +66,7 @@
                 "enable_torque_mode_vel_limit": true,
                 "enable_vel_limit": true,
                 "gain_scheduling_width": 10.0,
-                "homing_speed": 0.25,
+                "homing_speed": -3.0,
                 "inertia": 0.0,
                 "input_filter_bandwidth": 2.0,
                 "input_mode": 1,
@@ -112,8 +112,8 @@
                 "ignore_illegal_hall_state": false,
                 "index_offset": 0.0,
                 "mode": 0,
-                "phase_offset_float": -0.0019377470016479492,
-                "phase_offset": -1985,
+                "phase_offset_float": -0.04506814479827881,
+                "phase_offset": -2375,
                 "pre_calibrated": true,
                 "sincos_gpio_pin_cos": 4,
                 "sincos_gpio_pin_sin": 3,
@@ -124,8 +124,8 @@
         "max_endstop": {
             "config": {
                 "debounce_ms": 50,
-                "enabled": false,
-                "gpio_num": 0,
+                "enabled": true,
+                "gpio_num": 8,
                 "is_active_high": false,
                 "offset": 0.0
             }
@@ -139,10 +139,10 @@
         "min_endstop": {
             "config": {
                 "debounce_ms": 50,
-                "enabled": false,
-                "gpio_num": 0,
+                "enabled": true,
+                "gpio_num": 7,
                 "is_active_high": false,
-                "offset": 0.0
+                "offset": -5.384615421295166
             }
         },
         "motor": {
@@ -165,8 +165,8 @@
                 "inverter_temp_limit_lower": 100.0,
                 "inverter_temp_limit_upper": 120.0,
                 "motor_type": 0,
-                "phase_inductance": 0.00021695510076824576,
-                "phase_resistance": 0.13351212441921234,
+                "phase_inductance": 0.00021826065494678915,
+                "phase_resistance": 0.15374574065208435,
                 "pole_pairs": 15,
                 "pre_calibrated": true,
                 "requested_current_range": 25.0,
@@ -276,7 +276,7 @@
                 "enable_torque_mode_vel_limit": true,
                 "enable_vel_limit": true,
                 "gain_scheduling_width": 10.0,
-                "homing_speed": 1.0,
+                "homing_speed": 2.0,
                 "inertia": 0.0,
                 "input_filter_bandwidth": 2.0,
                 "input_mode": 1,
@@ -352,7 +352,7 @@
                 "enabled": true,
                 "gpio_num": 6,
                 "is_active_high": false,
-                "offset": 0.0
+                "offset": 5.0
             }
         },
         "motor": {
@@ -454,8 +454,8 @@
         "gpio4_mode": 3,
         "gpio5_mode": 1,
         "gpio6_mode": 1,
-        "gpio7_mode": 0,
-        "gpio8_mode": 0,
+        "gpio7_mode": 1,
+        "gpio8_mode": 1,
         "gpio9_mode": 11,
         "max_regen_current": 0.0,
         "uart0_protocol": 3,
